@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #3c0576, #2a2a2a);
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #c1a5de;
+}
+
+
+.contact-form {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background: #3c0576;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background: #240248;
+}
+
+
+footer {
+    background: #3c0576;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
